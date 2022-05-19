@@ -2,7 +2,13 @@
 
 name: CI-CD Test
 on:
-  workflow_dispatch:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+permissions:
+  contents: read
   
 env: # 새로 추가한 부분
   S3_BUCKET_NAME: eyetravel
