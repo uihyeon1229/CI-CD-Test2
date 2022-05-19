@@ -15,5 +15,5 @@ class TestController2 {
     public String checkHealth() {
         return "healthy";
     }
-//테스트
+//테스트2
 }
