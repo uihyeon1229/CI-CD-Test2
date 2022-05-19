@@ -13,7 +13,7 @@ class TestController2 {
 
     @GetMapping("/health")
     public String checkHealth() {
-        return "healthy";
+        return "healthy2";
     }
-//테스트15
+//테스트16
 }
