@@ -8,12 +8,12 @@ class TestController2 {
 
     @GetMapping("/")
     public String version() {
-        return "Test";
+        return "Test2";
     }
 
     @GetMapping("/health")
     public String checkHealth() {
-        return "healthy2";
+        return "healthy";
     }
 //테스트16
 }
