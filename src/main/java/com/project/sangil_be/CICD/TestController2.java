@@ -8,7 +8,7 @@ class TestController2 {
 
     @GetMapping("/")
     public String version() {
-        return "Test2";
+        return "Test";
     }
 
     @GetMapping("/health")
